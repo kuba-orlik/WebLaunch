@@ -15,7 +15,7 @@ To remove all traces of WebLaunch call the uninstall.sh script in the bin folder
 
 ## Background ##
 
-WebLaunch is based on "mesquite" former WAF and utilizes the "Kindle" template library and a few system librarys based on it to bring as much native browser behaviour as possible.
+WebLaunch is based on "mesquite" former WAF and utilizes the "Kindle" template library and a few system libraries based on it to bring as much native browser behaviour as possible.
 
 ## Notes ##
 
