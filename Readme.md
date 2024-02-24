@@ -4,7 +4,7 @@ WebLaunch is an extension for the Kindle Touch and Kindle PaperWhite with JailBr
 
 ## Install ##
 
-* Make sure your Kindle Touch / Kindle PaperWhite is already Jailbreaked
+* Make sure your Kindle Touch / Kindle PaperWhite is already Jailbroken
 * Make sure you have KUAL installed and the "extensions" folder exists 
 * Copy the WebLaunch folder to the "extensions" folder ( don't rename it without changing bin/start.sh first )
 * Copy the settings.example.js in the WebLaunch folder to settings.js and change its contents to fit your needs
