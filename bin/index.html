@@ -129,6 +129,13 @@
 					// Load url
 					const window = kindle.chrome.createContentWindow(sessionSettings.url);
 
+					// auto refresh
+					if (sessionSettings.autoRefresh) {
+						setInterval(function () {
+							window.document.location = window.document.location;
+						}, sessionSettings.autoRefresh * 1000);
+					}
+
 					// Set window title
 					kindle.chrome.setTitleBar('', sessionSettings.title);
 
